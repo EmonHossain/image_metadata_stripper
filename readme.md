@@ -28,11 +28,13 @@ Open your terminal or command prompt and run the following command to install th
 
 ```bash
 pip install Pillow pillow-heif
+```bash
 
 ### 2. How to run
 Open your terminal or command prompt and run the following command to run the pyhton script locally
 
 ```bash
 python Image_Metadata_Stripper.py
+```bash
 
 that's it! you are good to go...!
