@@ -16,7 +16,7 @@ It features a simple, native graphical file picker that allows you to select sin
 
 ---
 
-## 🛠️ Requirements & Installation
+## 🛠️ Requirements & Installation (Make sure you have python installed first)
 
 The script relies on `Pillow` for image manipulation and `tkinter` (which comes pre-installed with most Python distributions) for the file selection interface.
 
