@@ -87,7 +87,7 @@ def process_images(file_list, output_dir="clean_images"):
         os.makedirs(output_dir)
         
     if not HEIF_SUPPORT:
-        print("\n[⚠️ WARNING]: 'pillow-heif' is not installed. iPhone (.heic/.heif) files may fail to load.")
+        print("\n[WARNING]: 'pillow-heif' is not installed. iPhone (.heic/.heif) files may fail to load.")
         print("To fix this, run: pip install pillow-heif\n")
         
     print(f"Processing {len(file_list)} selected file(s)...")
